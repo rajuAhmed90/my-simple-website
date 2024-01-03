@@ -1,4 +1,39 @@
 div{
     background-color: red;
     color:white;
+    padding: 20px;
+}
+div h1{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+div img{
+    width: 80%;
+    margin: 0 auto;
+    /* display: inline-block; */
+    display: block;
+    clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 85%, 68% 94%, 22% 91%, 0 97%, 0% 20%);
+
+}
+
+p{
+    padding: 10px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+div button{
+    padding: 10px;
+    font-size: 26px;
+    margin: 30px auto;
+    display: block;
+    border-bottom: 5px solid saddlebrown;
+    border-right: 5px solid tomato;
+
+
 }
